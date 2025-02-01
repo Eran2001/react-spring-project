@@ -1,1 +1,61 @@
 @import "tailwindcss";
+
+.main {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #FFF;
+  color: #FFF;
+  font-size: 3rem;
+}
+
+#one {
+  background: #000957;
+  grid-column: span 2;
+}
+
+#two {
+  background: #FF0080;
+}
+
+#three {
+  background: #F2B28C;
+}
+
+#four {
+  background: #c1d207;
+}
+
+#five {
+  background: #FFD65A;
+}
+
+#six {
+  background: #A0153E;
+  grid-row: span 2;
+}
+
+#seven {
+  background: #5D0E41;
+  grid-column: span 2;
+}
+
+#eight {
+  background: #16C47F;
+}
+
+#nine {
+  background: #FF204E;
+  grid-row: span 2;
+}
+
+#ten {
+  background: #F93827;
+  grid-column: span 2 ;
+}
